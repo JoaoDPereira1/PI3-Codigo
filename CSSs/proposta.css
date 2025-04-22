@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nav {
+
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Valor alto para garantir que fique à frente */
+
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    width: 100%;
+    display: flex;
+    
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: 20px;
+    /* Ajuste este valor conforme necessário */
+}
+
+.searchbar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.searchbar button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+.searchbar button:hover {
+    background-color: #777;
+}
+
+
+.sidebar {
+    background-color: #f4f4f4;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding-top: 50px;
+    z-index: 0em;
+    flex: 1;
+    /* Espaço para a navbar */
+    
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+.main-content {
+    margin-left: 200px;
+    /* Espaço para a sidebar */
+    padding: 20px;
+    flex: 3;
+
+}
+
+
+.content {
+    margin-left: 220px;
+    /* Espaço para a sidebar */
+    padding: 0%;
+    flex: 3;
+    width: 80%; /* Ajuste conforme necessário */
+    background-color: #f0f0f0;
+    padding: 20px;
+
+}
+
+.card {
+    margin-right: 220px;
+}
+
+
+
+
+
+
+
+
+.container-card {
+    display: flex;
+    flex-direction:row;
+    
+    /* Alinha os cartões em uma coluna */
+    align-items: flex-end;
+    /* Alinha os cartões à direita */
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.card1 {
+    
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 8px;
+    width: 2000px;
+    margin-top: 90px;
+    margin-left: 200px;
+    /* Largura fixa para os cartões */
+}
+.card2 {
+    
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 8px;
+    width: 2000px;
+    margin-top: 90px;
+    margin-left: 200px;
+    /* Largura fixa para os cartões */
+}
+.card3 {
+    
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 8px;
+    width: 2000px;
+    margin-top: 90px;
+    margin-left: 200px;
+    /* Largura fixa para os cartões */
+}
+ul{
+    list-style: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de igual largura */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.img-row {
+    display: flex;
+}
+#imagem {
+        margin-top: 60px;
+        width: 100vw; 
+        height: 10vw;
+
+}
+.notification-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.notification-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.notification-button:hover {
+    background-color: #0056b3;
+}
+
+.Avatar-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Avatar-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.Avatar-button:hover {
+    background-color: #0056b3;
+}
+.form_help
+
+{
+    margin-left: 20em;
+}
+.col-sm-2 {
+    text-align: right;
+
+}
+
+.col-form-label{
+    text-align: right;
+
+}
+.col-sm-10{
+    margin-left: auto;
+}
+
+.form-control{
+margin-right: auto
+
+}
+.col-sm-4{
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.offset-sm-6{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.custom-label{
+    margin-right: 30px; /* Adjust this value */
+}
